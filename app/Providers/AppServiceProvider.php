@@ -1,0 +1,28 @@
+<?php
+
+namespace App\Providers;
+
+use App\Models\Project;
+use App\Policies\ProjectPolicy;
+use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
+use Illuminate\Pagination\Paginator;
+
+class AppServiceProvider extends ServiceProvider
+{
+    /**
+     * The policy mappings for the application.
+     *
+     * @var array<class-string, class-string>
+     */
+    protected $policies = [
+        Project::class => ProjectPolicy::class,
+    ];
+
+    /**
+     * Register any authentication / authorisation services.
+     */
+    public function boot(): void
+    {
+        Paginator::useBootstrapFive();
+    }
+}
