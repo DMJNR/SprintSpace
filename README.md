@@ -79,12 +79,15 @@ npm install
 
 cp .env.example .env
 php artisan key:generate
+```
 
-- update .env settings, then run:
+update .env settings, then run:
+
+```bash
 php artisan migrate
 php artisan db:seed
 composer run dev
-
+```
 ---
 
 ## Author
