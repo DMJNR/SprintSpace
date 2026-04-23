@@ -45,7 +45,7 @@
                         <div class="col-md-4">
                             <div class="my-project-image-wrapper">
                                 <img
-                                    src="{{ asset('images/project-placeholder.jpg') }}"
+                                    src="{{ asset('icons/project-placeholder.png') }}"
                                     alt="Project preview image"
                                     class="my-project-image"
                                 >

@@ -91,7 +91,7 @@
                         <div class="col-md-4">
                             <div class="project-image-wrapper h-100">
                                 <img
-                                    src="{{ asset('images/project-placeholder.jpg') }}"
+                                    src="{{ asset('icons/project-placeholder.png') }}"
                                     alt="Project preview image"
                                     class="project-card-image"
                                 >
@@ -144,7 +144,7 @@
             @empty
                 <div class="empty-state-panel text-center">
                     <img
-                        src="{{ asset('images/no-projects.jpg') }}"
+                        src="{{ asset('icons/no-results.png') }}"
                         alt="No projects found"
                         class="empty-state-image mb-4"
                     >

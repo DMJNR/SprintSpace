@@ -36,7 +36,7 @@
                     <div class="project-show-card overflow-hidden">
                         <div class="project-show-image-wrapper">
                             <img
-                                src="{{ asset('images/project-placeholder.jpg') }}"
+                                src="{{ asset('icons/project-placeholder.png') }}"
                                 alt="Project preview image"
                                 class="project-show-image"
                             >
