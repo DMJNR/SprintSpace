@@ -5,14 +5,6 @@ It enables public users to browse and search projects, while authenticated users
 
 ---
 
-## Live System
-`ADD YOUR LIVE LINK HERE`
-
-## Repository
-https://github.com/DMJNR/SprintSpace
-
----
-
 ## Test Credentials
 - Email: `test@example.com`
 - Password: `password123`
@@ -51,7 +43,7 @@ https://github.com/DMJNR/SprintSpace
 ## Database Structure
 
 ### Users
-- id, username, email, password
+- Use laravel's default user table when setting up miigrations.
 
 ### Projects
 - id, user_id, title, start_date, end_date, short_description, phase
