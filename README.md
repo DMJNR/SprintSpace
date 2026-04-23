@@ -5,12 +5,6 @@ It enables public users to browse and search projects, while authenticated users
 
 ---
 
-## Test Credentials
-- Email: `test@example.com`
-- Password: `password123`
-
----
-
 ## Core Functionality
 
 ### Public Users
@@ -43,10 +37,14 @@ It enables public users to browse and search projects, while authenticated users
 ## Database Structure
 
 ### Users
-- Use laravel's default user table when setting up miigrations.
+- id, username, email, password
 
 ### Projects
 - id, user_id, title, start_date, end_date, short_description, phase
+
+**Phase values:**
+ `design`, `development`, `testing`, `deployment`, `complete`
+
 ---
 
 ## Key Files
@@ -80,6 +78,12 @@ php artisan migrate
 php artisan db:seed
 composer run dev
 ```
+---
+
+## Test Credentials
+- Email: `test@example.com`
+- Password: `password123`
+
 ---
 
 ## Author
